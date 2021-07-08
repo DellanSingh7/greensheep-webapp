@@ -7,6 +7,9 @@ import Login from "./pages/Login/Login";
 import Orders from "./pages/Orders";
 import Stock from "./pages/Stock";
 import Dashboard from "./pages/Dashboard";
+import Catalog from "./pages/Catalog";
+import DetailedProduct from "./pages/DetailedProduct";
+import CheckoutPg from "./pages/CheckoutPg";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           <Route path="/members" component={Members} />
           <Route path="/orders" component={Orders} />
           <Route path="/stock" component={Stock} />
+          <Route path="/catalog" component={Catalog} />
+          <Route path="/productID" component={DetailedProduct} />
+          <Route path="/checkout" component={CheckoutPg} />
         </Switch>
       </Router>
     </>
